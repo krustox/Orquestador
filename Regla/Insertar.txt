@@ -1,0 +1,57 @@
+Tuesday 7th of November 2017 04:27:24 PM: ldap banco\montivoli INSERT INTO "orquestador"."servicio" ("servicio_nombre","servicio_severidad","servicio_para","servicio_cc","servicio_marchablanca","servicio_marchablancatxt"  ) 
+		VALUES ('Nueva Banca En Linea',4,' ',' ',0,' '  ) 
+Tuesday 7th of November 2017 04:27:24 PM: ldap banco\montivoli INSERT INTO "orquestador"."tipo" ("tipo_nombre","tipo_severidad","tipo_para","tipo_cc","tipo_marchablanca","tipo_marchablancatxt" ,"tipo_servicio" ) 
+		VALUES ('Experiencia Usuaria',4,'rfadul@externos.bancoestado.cl','mperez18@externos.bancoestado.cl',0,'' ,850 ) 
+Tuesday 7th of November 2017 04:27:24 PM: ldap banco\montivoli tipo Experiencia Usuaria;4;rfadul@externos.bancoestado.cl;mperez18@externos.bancoestado.cl;0;;850
+Wednesday 8th of November 2017 12:05:07 PM: ldap banco\montivoli INSERT INTO "orquestador"."servicio" ("servicio_nombre","servicio_severidad","servicio_para","servicio_cc","servicio_marchablanca","servicio_marchablancatxt"  ) 
+		VALUES ('Sistema Unico de Normas (SUN)',5,'fcastera@bancoestado.cl,fnavarre@bancoestado.cl,gestiondeeventosymonitoreo@bancoestado.cl,aredes@bancoestado.cl','mperez18@externos.bancoestado.cl,jcabrer2@externos.bancoestado.cl',1,'rfadul@externos.bancoestado.cl'  ) 
+Wednesday 8th of November 2017 12:05:07 PM: ldap banco\montivoli Sistema Unico de Normas (SUN);5;fcastera@bancoestado.cl,fnavarre@bancoestado.cl,gestiondeeventosymonitoreo@bancoestado.cl,aredes@bancoestado.cl;mperez18@externos.bancoestado.cl,jcabrer2@externos.bancoestado.cl;1;rfadul@externos.bancoestado.cl
+Monday 13th of November 2017 12:51:31 PM: ldap banco\montivoli INSERT INTO "orquestador"."servicio" ("servicio_nombre","servicio_severidad","servicio_para","servicio_cc","servicio_marchablanca","servicio_marchablancatxt"  ) 
+		VALUES ('Recurso Humano (RRHH)',5,' ',' ',0,' '  ) 
+Monday 13th of November 2017 12:51:31 PM: ldap banco\montivoli INSERT INTO "orquestador"."tipo" ("tipo_nombre","tipo_severidad","tipo_para","tipo_cc","tipo_marchablanca","tipo_marchablancatxt" ,"tipo_servicio" ) 
+		VALUES ('Infraestructura',5,'gestiondeeventosymonitoreo@bancoestado.cl','mperez18@externos.bancoestado.cl,rfadul@externos.bancoestado.cl,jcabre2@bancoestado.cl',0,'' ,852 ) 
+Monday 13th of November 2017 12:51:31 PM: ldap banco\montivoli tipo Infraestructura;5;gestiondeeventosymonitoreo@bancoestado.cl;mperez18@externos.bancoestado.cl,rfadul@externos.bancoestado.cl,jcabre2@bancoestado.cl;0;;852
+Monday 13th of November 2017 12:52:44 PM: ldap banco\montivoli INSERT INTO "orquestador"."tipo" ("tipo_nombre","tipo_severidad","tipo_para","tipo_cc","tipo_marchablanca","tipo_marchablancatxt" ,"tipo_servicio" ) 
+		VALUES ('Infraestructura',5,'aredes@bancoestado.cl,gestiondeeventosymonitoreo@bancoestado.cl,fnavarre@bancoestado.cl','mperez18@externos.bancoestado.cl,rfadul@externos.bancoestado.cl,jcabre2@bancoestado.cl',0,'' ,704 ) 
+Monday 13th of November 2017 12:52:44 PM: ldap banco\montivoli tipo Infraestructura;5;aredes@bancoestado.cl,gestiondeeventosymonitoreo@bancoestado.cl,fnavarre@bancoestado.cl;mperez18@externos.bancoestado.cl,rfadul@externos.bancoestado.cl,jcabre2@bancoestado.cl;0;;704
+Friday 17th of November 2017 10:13:19 AM: ldap banco\montivoli INSERT INTO "orquestador"."subservicio" ("subservicio_nombre","subservicio_severidad","subservicio_para","subservicio_cc","subservicio_marchablanca","subservicio_marchablancatxt" ,"subservicio_tipo" ) 
+		VALUES ('Capa de Presentacion',5,' ',' ',0,' ' ,23  ) 
+Friday 17th of November 2017 10:13:19 AM: ldap banco\montivoli INSERT INTO "orquestador"."site" ("site_nombre","site_severidad","site_para","site_cc","site_marchablanca","site_marchablancatxt" ,"site_subservicio" ) 
+		VALUES ('Kenos',5,' ',' ',0,' ' ,1  ) 
+Friday 17th of November 2017 10:13:19 AM: ldap banco\montivoli INSERT INTO "orquestador"."componente" ("componente_nombre","componente_severidad","componente_para","componente_cc","componente_marchablanca","componente_marchablancatxt" ,"componente_site" ) 
+		VALUES ('Web',5,' ',' ',0,' ' ,1  ) 
+Friday 17th of November 2017 10:13:19 AM: ldap banco\montivoli INSERT INTO "orquestador"."subcomponente" ("subcomponente_nombre","subcomponente_severidad","subcomponente_para","subcomponente_cc","subcomponente_marchablanca","subcomponente_marchablancatxt" ,"subcomponente_componente" ) 
+		VALUES ('IIS',5,' ',' ',0,' ' ,1  ) 
+Friday 17th of November 2017 10:13:19 AM: ldap banco\montivoli INSERT INTO "orquestador"."elemento" ("elemento_nombre","elemento_severidad","elemento_para","elemento_cc","elemento_marchablanca","elemento_marchablancatxt" ,"elemento_subcomponente" ) 
+		VALUES ('VS2K8-ICAPP01C_IIS',5,' ',' ',0,' ' ,1  ) 
+Friday 17th of November 2017 10:13:19 AM: ldap banco\montivoli INSERT INTO "orquestador"."variable" ("variable_nombre","variable_severidad","variable_para","variable_cc","variable_marchablanca","variable_marchablancatxt" ,"variable_elemento" ) 
+		VALUES ('Conexiones Concurrentes ',5,'mperez18@externos.bancoestado.cl','mperez18@externos.bancoestado.cl',1,'rfadul@externos.bancoestado.cl' ,1 ) 
+Friday 17th of November 2017 10:13:19 AM: ldap banco\montivoli variable Conexiones Concurrentes ;5;mperez18@externos.bancoestado.cl;mperez18@externos.bancoestado.cl;1;rfadul@externos.bancoestado.cl;1
+Friday 17th of November 2017 11:17:10 AM: ldap banco\montivoli INSERT INTO "orquestador"."servicio" ("servicio_nombre","servicio_severidad","servicio_para","servicio_cc","servicio_marchablanca","servicio_marchablancatxt"  ) 
+		VALUES ('Nueva Intranet',3,' ',' ',0,' '  ) 
+Friday 17th of November 2017 11:17:10 AM: ldap banco\montivoli INSERT INTO "orquestador"."tipo" ("tipo_nombre","tipo_severidad","tipo_para","tipo_cc","tipo_marchablanca","tipo_marchablancatxt" ,"tipo_servicio" ) 
+		VALUES ('Infraestructura',3,' ',' ',0,' ' ,853  ) 
+Friday 17th of November 2017 11:17:10 AM: ldap banco\montivoli INSERT INTO "orquestador"."subservicio" ("subservicio_nombre","subservicio_severidad","subservicio_para","subservicio_cc","subservicio_marchablanca","subservicio_marchablancatxt" ,"subservicio_tipo" ) 
+		VALUES ('Capa de Presentacion',3,' ',' ',0,' ' ,24  ) 
+Friday 17th of November 2017 11:17:10 AM: ldap banco\montivoli INSERT INTO "orquestador"."site" ("site_nombre","site_severidad","site_para","site_cc","site_marchablanca","site_marchablancatxt" ,"site_subservicio" ) 
+		VALUES ('Kenos',3,' ',' ',0,' ' ,2  ) 
+Friday 17th of November 2017 11:17:10 AM: ldap banco\montivoli INSERT INTO "orquestador"."componente" ("componente_nombre","componente_severidad","componente_para","componente_cc","componente_marchablanca","componente_marchablancatxt" ,"componente_site" ) 
+		VALUES ('Web',3,' ',' ',0,' ' ,2  ) 
+Friday 17th of November 2017 11:17:10 AM: ldap banco\montivoli INSERT INTO "orquestador"."subcomponente" ("subcomponente_nombre","subcomponente_severidad","subcomponente_para","subcomponente_cc","subcomponente_marchablanca","subcomponente_marchablancatxt" ,"subcomponente_componente" ) 
+		VALUES ('IIS',3,'mperez18@externos.bancoestado.cl','mperez18@externos.bancoestado.cl',1,'rfadul@externos.bancoestado.cl' ,2 ) 
+Friday 17th of November 2017 11:17:10 AM: ldap banco\montivoli subcomponente IIS;3;mperez18@externos.bancoestado.cl;mperez18@externos.bancoestado.cl;1;rfadul@externos.bancoestado.cl;2
+Wednesday 29th of November 2017 09:34:13 AM: ldap banco\montivoli INSERT INTO "orquestador"."servicio" ("servicio_nombre","servicio_severidad","servicio_para","servicio_cc","servicio_marchablanca","servicio_marchablancatxt"  ) 
+		VALUES ('Nube Privada',5,' rfadul@externos.bancoestado.cl','jcabrer2@bancoestado.cl,mperez18@externos.bancoestado.cl,',0,''  ) 
+Wednesday 29th of November 2017 09:34:13 AM: ldap banco\montivoli Nube Privada;5; rfadul@externos.bancoestado.cl;jcabrer2@bancoestado.cl,mperez18@externos.bancoestado.cl,;0;
+Wednesday 6th of December 2017 10:58:47 AM: ldap banco\montivoli INSERT INTO "orquestador"."tipo" ("tipo_nombre","tipo_severidad","tipo_para","tipo_cc","tipo_marchablanca","tipo_marchablancatxt" ,"tipo_servicio" ) 
+		VALUES ('Infraestructura',5,'aredes@bancoestado.cl,lvilla90@bancoestado.cl,operacio@bancoestado.cl,gestiondeeventosymonitoreo@bancoestado.cl','mperez18@externos.bancoestado.cl,rfadul@externos.bancoestado.cl,jcabrer2@bancoestado.cl',0,'' ,699 ) 
+Wednesday 6th of December 2017 10:58:47 AM: ldap banco\montivoli tipo Infraestructura;5;aredes@bancoestado.cl,lvilla90@bancoestado.cl,operacio@bancoestado.cl,gestiondeeventosymonitoreo@bancoestado.cl;mperez18@externos.bancoestado.cl,rfadul@externos.bancoestado.cl,jcabrer2@bancoestado.cl;0;;699
+Tuesday 12th of December 2017 04:34:39 PM: ldap banco\montivoli INSERT INTO "orquestador"."servicio" ("servicio_nombre","servicio_severidad","servicio_para","servicio_cc","servicio_marchablanca","servicio_marchablancatxt"  ) 
+		VALUES ('Monitoreo SRV_RECURSOS',5,'rfadul@externos.bancoestado.cl','mperez18@externos.bancoestado.cl,jcabrer2@bancoestado.cl',0,''  ) 
+Tuesday 12th of December 2017 04:34:39 PM: ldap banco\montivoli Monitoreo SRV_RECURSOS;5;rfadul@externos.bancoestado.cl;mperez18@externos.bancoestado.cl,jcabrer2@bancoestado.cl;0;
+Monday 18th of December 2017 12:10:02 PM: ldap banco\montivoli INSERT INTO "orquestador"."servicio" ("servicio_nombre","servicio_severidad","servicio_para","servicio_cc","servicio_marchablanca","servicio_marchablancatxt"  ) 
+		VALUES ('Core Aneto',5,'rfadul@externos.bancoestado.cl','jcabrer2@bancoestado.cl,mperez18@externos.bancoestado.cl',0,''  ) 
+Monday 18th of December 2017 12:10:02 PM: ldap banco\montivoli Core Aneto;5;rfadul@externos.bancoestado.cl;jcabrer2@bancoestado.cl,mperez18@externos.bancoestado.cl;0;
+Wednesday 20th of December 2017 12:55:13 PM: ldap banco\montivoli INSERT INTO "orquestador"."servicio" ("servicio_nombre","servicio_severidad","servicio_para","servicio_cc","servicio_marchablanca","servicio_marchablancatxt"  ) 
+		VALUES ('PCH',5,'mejoracontinuage@bancoestado.cl,gestiondeeventosymonitoreo@bancoestado.cl,aredes@bancoestado.cl,lvilla90@bancoestado.cl,lcabell2@bancoestado.cl,rvenega4@externos.bancoestado.cl','mperez18@externos.bancoestado.cl,jcabrer2@bancoestado.cl',0,''  ) 
+Wednesday 20th of December 2017 12:55:13 PM: ldap banco\montivoli PCH;5;mejoracontinuage@bancoestado.cl,gestiondeeventosymonitoreo@bancoestado.cl,aredes@bancoestado.cl,lvilla90@bancoestado.cl,lcabell2@bancoestado.cl,rvenega4@externos.bancoestado.cl;mperez18@externos.bancoestado.cl,jcabrer2@bancoestado.cl;0;

@@ -1,0 +1,6 @@
+Wednesday 26th of April 2017 04:52:55 PM: darbelaez@wisevisioncorp.com UPDATE "orquestador"."usuario" SET "usuario_nombre" = 'Rene Fadul',"usuario_correo" = 'rfadul@wisevisioncorp.com',"usuario_contrasena" = '12345'
+		WHERE "usuario_id" = 22 
+Wednesday 26th of April 2017 04:54:01 PM: darbelaez@wisevisioncorp.com UPDATE "orquestador"."usuario" SET "usuario_nombre" = 'Rene Fadul',"usuario_correo" = 'rfadul@wisevisioncorp.com',"usuario_contrasena" = '12345'
+		WHERE "usuario_id" = 22 
+Wednesday 26th of April 2017 04:55:55 PM: darbelaez@wisevisioncorp.com UPDATE "orquestador"."usuario" SET "usuario_nombre" = 'Rene Fadul',"usuario_correo" = 'rfadul@wisevisioncorp.com',"usuario_contrasena" = '12345'
+		WHERE "usuario_id" = 22 

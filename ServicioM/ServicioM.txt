@@ -1,0 +1,7 @@
+Wednesday 8th of November 2017 11:29:31 AM: ldap banco\montivoli INSERT INTO "SERVICIOS_MONITOREO"."Servicio_Monitoreado" ("Servicio_Monitoreado") VALUES ('AppMobile') 
+Wednesday 8th of November 2017 03:56:13 PM: ldap banco\montivoli INSERT INTO "SERVICIOS_MONITOREO"."Servicio_Monitoreado" ("Servicio_Monitoreado") VALUES ('Sistema Unico de Normas (SUN)') 
+Wednesday 29th of November 2017 09:32:31 AM: ldap banco\montivoli INSERT INTO "SERVICIOS_MONITOREO"."Servicio_Monitoreado" ("Servicio_Monitoreado") VALUES ('Nube Privada') 
+Monday 11th of December 2017 04:45:11 PM: ldap banco\montivoli INSERT INTO "SERVICIOS_MONITOREO"."Servicio_Monitoreado" ("Servicio_Monitoreado") VALUES ('Punto Verificacion Robot Emerix') 
+Tuesday 12th of December 2017 04:34:05 PM: ldap banco\montivoli INSERT INTO "SERVICIOS_MONITOREO"."Servicio_Monitoreado" ("Servicio_Monitoreado") VALUES ('Monitoreo SRV_RECURSOS') 
+Monday 18th of December 2017 12:09:13 PM: ldap banco\montivoli INSERT INTO "SERVICIOS_MONITOREO"."Servicio_Monitoreado" ("Servicio_Monitoreado") VALUES ('Core Aneto') 
+Wednesday 20th of December 2017 12:54:00 PM: ldap banco\montivoli INSERT INTO "SERVICIOS_MONITOREO"."Servicio_Monitoreado" ("Servicio_Monitoreado") VALUES ('PCH') 

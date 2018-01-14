@@ -1,0 +1,1 @@
+Monday 13th of November 2017 12:53:37 PM: ldap banco\montivoli UPDATE "SERVICIOS_MONITOREO"."Servicio_Monitoreado" SET "Servicio_Monitoreado" = 'Recurso Humando (RRHH)' WHERE "Servicio_Monitoreado" = 'RRHH' 
