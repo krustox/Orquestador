@@ -81,18 +81,18 @@
 	   			if(isset($this->datosPeticion['variable'])){$variable = $this->datosPeticion['variable']; 
 	   			$table[$j]="variable";$valor[$j] = $variable;$j=$j+1;}
 	   		} else if ($tipo == "Experiencia Usuaria"){
-	   			if(isset($this->datosPeticion['agrupacion'])){$agrupacion = $this->datosPeticion['agrupacion']; 
+	   			if(isset($this->datosPeticion['agrupacion']) && $this->datosPeticion['agrupacion'] != "N/A" ){$agrupacion = $this->datosPeticion['agrupacion']; 
 	   			$table[$j]="agrupacion";$valor[$j] = $agrupacion;$j=$j+1;}
-	   			if(isset($this->datosPeticion['segmento'])){$segmento = $this->datosPeticion['segmento']; 
+	   			if(isset($this->datosPeticion['segmento']) && $this->datosPeticion['segmento'] != "N/A" && isset($agrupacion)){$segmento = $this->datosPeticion['segmento']; 
 	   			$table[$j]="segmento";$valor[$j] = $segmento;$j=$j+1;}
-	   			if(isset($this->datosPeticion['producto'])){$producto = $this->datosPeticion['producto']; 
+	   			if(isset($this->datosPeticion['producto']) && $this->datosPeticion['producto'] != "N/A" && isset($segmento)){$producto = $this->datosPeticion['producto']; 
 	   			$table[$j]="producto";$valor[$j] = $producto;$j=$j+1;}
-	   			if(isset($this->datosPeticion['transaccion'])){$transaccion = $this->datosPeticion['transaccion']; 
+	   			if(isset($this->datosPeticion['transaccion']) && $this->datosPeticion['transaccion'] != "N/A" && isset($producto)){$transaccion = $this->datosPeticion['transaccion']; 
 	   			$table[$j]="transaccion";$valor[$j] = $transaccion;$j=$j+1;}
-	   			if(isset($this->datosPeticion['operacion'])){$operacion = $this->datosPeticion['operacion'];
+	   			if(isset($this->datosPeticion['operacion']) && $this->datosPeticion['operacion'] != "N/A" && isset($transaccion)){$operacion = $this->datosPeticion['operacion'];
 	   			$table[$j]="operacion";$valor[$j] = $operacion;$j=$j+1;}
-	   			if(isset($this->datosPeticion['variable'])){$variable_eu = $this->datosPeticion['variable'];
-	   			$table[$j]="variable";$valor[$j] = $variable;$j=$j+1;}
+	   			if(isset($this->datosPeticion['variable']) && $this->datosPeticion['variable'] != "N/A" && isset($operacion)){$variable_eu = $this->datosPeticion['variable'];
+	   			$table[$j]="variable";$valor[$j] = $variable_eu;$j=$j+1;}
 	   		}
 	   }
        $severidad = $this->datosPeticion['severidad']; 
@@ -128,6 +128,7 @@
            				FROM \"orquestador\".\"$table[$i]\" WHERE \"$table[$i]"."_nombre\" = '$valor[$i]' 
 								 AND \"$table[$i]"."_severidad\" = $severidad AND \"$table[$i]"."_$table[$tmp]\" = $id";
            			}
+					escribir("query",$query);
            			$resp = db2_prepare($conn_resource, $query);
 			   		if($resp){
 			 			$result = db2_exec($conn_resource, $query );

@@ -1,0 +1,4 @@
+Friday 12th of January 2018 12:51:31 PM: Inicio Sesión: (Cierra Sesion preexistente) banco\montivoli 9psavhrh7e4urk3bheuc7uhhs5 ldap
+Wednesday 17th of January 2018 10:17:47 AM: Inicio Sesión: (Cierra Sesion preexistente) banco\montivoli 1fuh9rutqmus76aojnpsqmmet4 ldap
+Thursday 18th of January 2018 03:21:02 PM: Inicio Sesión: (Cierra Sesion preexistente) banco\montivoli 9kqn4t19kc1ggilqjt97lvtt41 ldap
+Friday 19th of January 2018 12:05:14 PM: Inicio Sesión: (Cierra Sesion preexistente) banco\montivoli u9h1c8g1224ilbsnmkvnov9243 ldap

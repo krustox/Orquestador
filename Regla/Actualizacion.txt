@@ -21,3 +21,4 @@ Monday 18th of December 2017 12:13:59 PM: ldap banco\montivoli UPDATE "orquestad
 ', "servicio_cc"='jcabrer2@bancoestado.cl,mperez18@externos.bancoestado.cl', "servicio_marchablancatxt"='', "servicio_marchablanca"=0 WHERE "servicio_id"=856 
 Tuesday 26th of December 2017 09:31:41 AM: ldap banco\montivoli UPDATE "orquestador"."servicio" SET "servicio_para"='gestiondeeventosymonitoreo@bancoestado.cl
 ', "servicio_cc"='jcabrer2@bancoestado.cl,mperez18@externos.bancoestado.cl', "servicio_marchablancatxt"='', "servicio_marchablanca"=0 WHERE "servicio_id"=856 
+Wednesday 17th of January 2018 10:18:32 AM: ldap banco\montivoli UPDATE "orquestador"."servicio" SET "servicio_para"='rfadul@externos.bancoestado.cl', "servicio_cc"='mpere18@externos.bancoestado.cl', "servicio_marchablancatxt"='', "servicio_marchablanca"=0 WHERE "servicio_id"=731 

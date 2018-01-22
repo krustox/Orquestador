@@ -1,0 +1,6 @@
+Friday 12th of January 2018 12:55:13 PM: UPDATE "orquestador"."servicio" SET 
+"servicio_para"='',
+"servicio_cc"='',
+"servicio_marchablancatxt"='',
+"servicio_marchablanca"=0
+ WHERE "servicio_id"=809
