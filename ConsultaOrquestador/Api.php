@@ -92,7 +92,7 @@
 	   			if(isset($this->datosPeticion['operacion']) && $this->datosPeticion['operacion'] != "N/A" && isset($transaccion)){$operacion = $this->datosPeticion['operacion'];
 	   			$table[$j]="operacion";$valor[$j] = $operacion;$j=$j+1;}
 	   			if(isset($this->datosPeticion['variable']) && $this->datosPeticion['variable'] != "N/A" && isset($operacion)){$variable_eu = $this->datosPeticion['variable'];
-	   			$table[$j]="variable";$valor[$j] = $variable_eu;$j=$j+1;}
+	   			$table[$j]="variable_eu";$valor[$j] = $variable_eu;$j=$j+1;}
 	   		}
 	   }
        $severidad = $this->datosPeticion['severidad'];
